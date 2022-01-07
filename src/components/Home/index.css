@@ -1,0 +1,45 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 100px;
+}
+.input-file {
+  margin-left: 10px;
+}
+.user-input-container {
+  width: 30%;
+  border: 1px solid gray;
+  height: 100px;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 776px) {
+  .user-input-container {
+    width: 70%;
+    border: 1px solid gray;
+    height: 100px;
+    padding: 30px;
+    border-radius: 5px;
+  }
+}
+.submit-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: blue;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.error-text {
+  color: red;
+}
+.success-text {
+  color: green;
+}

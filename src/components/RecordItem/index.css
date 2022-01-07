@@ -1,0 +1,13 @@
+.record-item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: 'Roboto';
+  margin-top: 10px;
+}
+.title-text {
+}
+.body-text {
+}

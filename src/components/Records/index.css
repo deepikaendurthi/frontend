@@ -1,0 +1,21 @@
+.records-container {
+  margin: 20px;
+}
+
+.record-items-container {
+  list-style-type: none;
+}
+.records-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.failure-container {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  text-align: center;
+}
